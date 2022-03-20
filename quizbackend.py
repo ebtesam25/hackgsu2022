@@ -19,7 +19,7 @@ def sendsms(tonum, mesg):
     payload = json.dumps({
     "receiver": tonum,
     "message": mesg,
-    "token": "hackeroo"
+    "token": "REDACTED"
     })
     headers = {
     'Content-Type': 'application/json'
